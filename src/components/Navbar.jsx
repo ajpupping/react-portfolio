@@ -4,6 +4,8 @@
 
 import React, {useState} from 'react';
 
+import { Link } from 'react-router-dom';
+
 import styles from '../styles/Navbar.module.css';
 
 export const Navbar = () => {
@@ -23,9 +25,9 @@ export const Navbar = () => {
                 </button>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
                     onClick={() => setMenuOpen(false)}>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#resume">Resume</a></li>
+                    <li><Link to ="/about">About Me</Link></li>
+                    <li><Link to="/contact">Contact Me</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
                 </ul>
             </div>
         </nav>
