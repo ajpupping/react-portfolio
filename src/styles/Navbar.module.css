@@ -8,6 +8,8 @@
     padding-top: 60px;
     z-index: 2;
     margin: 0 10%;
+    background: var(-primary-color);
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 .title {
@@ -21,6 +23,10 @@
     display: flex;
 }
 
+.menuBtn {
+    display: none;
+}
+
 .menuItems {
     display: flex;
     gap: 40px;
@@ -32,5 +38,50 @@
     font-weight: 400;
     text-decoration: none;
     color: var(--text-color);
+}
 
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction:column;
+        align-items: flex-end;
+        gap: 12;
+        z-index: 3;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;  
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--dark-color);
+        background-color: ;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        border-radius: 10px;
+        background: var(--primary-color);
+        background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        padding: 20px 30px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
 }
