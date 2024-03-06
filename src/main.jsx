@@ -17,3 +17,5 @@ if(container) {
     </BrowserRouter>
   );
 }
+
+export default App;

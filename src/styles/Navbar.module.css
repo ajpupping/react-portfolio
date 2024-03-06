@@ -63,7 +63,7 @@
         font-weight: 400;
         text-decoration: none;
         color: var(--dark-color);
-        background-color: ;
+        background-color: var(--button-color);
         border-radius: 10px;
         padding: 10px 20px;
     }
