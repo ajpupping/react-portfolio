@@ -3,9 +3,9 @@
 
 import React from 'react';
 
-import styles from '../styles/Resume.module.css';
+import styles from '../Resume/Resume.module.css';
 
-function Resume() {
+export const Resume = () => {
     return (
         <div className={styles.App}>
             <h1>Resume</h1>

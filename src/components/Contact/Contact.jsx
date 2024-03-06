@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-import styles from '../styles/Contact.module.css';
+import styles from '../Contact/Contact.module.css';
 
-function Contact() {
+export const Contact = () => {
     return (
         <div className={styles.App}>
-            <h1>Contact Me</h1>
+            <h1>Contact</h1>
         </div>
     );
 }

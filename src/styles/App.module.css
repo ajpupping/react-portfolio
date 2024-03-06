@@ -1,9 +1,7 @@
-@import "./vars.css";
+@import "../styles/vars.css";
 
 .App {
-    background-color: var(--background-color);
+    background: linear-gradient(to bottom, #3faeee, #2da3f3, #2e98f7, #418af8, #5a7bf5, #616ee6, #6660d7, #6a53c8, #5c48af, #4f3e97, #423480, #362a69);;
     width: 100%;
     height: 100%;
-
-    color: var(--text-color);
 };

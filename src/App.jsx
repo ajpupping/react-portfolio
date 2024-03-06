@@ -1,13 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import PortfolioPage from './components/Portfolio.jsx';
-import AboutPage from './components/About.jsx';
-import ContactPage from './components/Contact.jsx';
-import ResumePage from './components/Resume.jsx';
+import PortfolioPage from './components/Portfolio/Portfolio.jsx';
+import AboutPage from './components/About/About.jsx';
+import ContactPage from './components/Contact/Contact.jsx';
+import ResumePage from './components/Resume/Resume.jsx';
 
 import styles from './styles/App.module.css';
 
-import { Header } from './components/Header.jsx';
+import { Header } from './components/Header/Header.jsx';
 
 function App() {
     return <div className={styles.App}>

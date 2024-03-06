@@ -5,9 +5,9 @@
 
 import React from 'react';
 
-import styles from '../styles/Header.module.css';
+import styles from '../Header/Header.module.css';
 
-import { Navbar } from './Navbar.jsx';
+import { Navbar } from '../Navbar/Navbar.jsx';
 
 export const Header = () => {
     return (
@@ -21,3 +21,5 @@ export const Header = () => {
         </section>
     );
 };
+
+export default Header;

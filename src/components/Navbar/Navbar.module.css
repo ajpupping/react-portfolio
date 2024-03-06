@@ -1,4 +1,4 @@
-@import "../styles/vars.css";
+@import "../../styles/vars.css";
 
 .navbar {
     position: relative;
@@ -8,8 +8,6 @@
     padding-top: 60px;
     z-index: 2;
     margin: 0;
-    background: var(-primary-color);
-    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 .title {
@@ -78,10 +76,13 @@
         align-items: center;
         gap: 12px;
         border-radius: 10px;
-        background: var(--primary-color);
-        background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        background-color: var(--button-color);
         padding: 20px 30px;
         box-shadow: var(--box-shadow);
+    }
+
+    .menuItems a {
+        color: var(--dark-color);
     }
 
     .menuOpen {

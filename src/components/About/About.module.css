@@ -1,0 +1,71 @@
+@import "../../styles/vars.css";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 30px;
+    padding: 10px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bio {
+    text-align: start;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .heading {
+        font-size: 1.2rem;
+    }
+    .bio {
+        font-size: 1rem;
+    }
+}

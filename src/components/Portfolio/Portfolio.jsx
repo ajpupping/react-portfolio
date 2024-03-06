@@ -2,10 +2,9 @@
 
 import React from 'react';
 
-import styles from '../styles/Portfolio.module.css';
+import styles from '../Portfolio/Portfolio.module.css';
 
-
-function Portfolio() {
+export const Portfolio = () => {
     return (
         <div className={styles.App}>
             <h1>Portfolio</h1>

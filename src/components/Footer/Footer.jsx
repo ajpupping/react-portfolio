@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-import styles from '../styles/Footer.module.css';
+import styles from '../Footer/Footer.module.css';
 
-function Footer() {
+export const Footer = () => {
     return (
         <div className={styles.App}>
             <p>AJP 2024</p>

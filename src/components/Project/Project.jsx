@@ -6,9 +6,9 @@
 
 import React from 'react';
 
-import styles from '../styles/Project.module.css';
+import styles from '../Project/Project.module.css';
 
-function Project() {
+export const Project = () => {
     return (
         <div className={styles.App}>
             <h1>Projects</h1>
