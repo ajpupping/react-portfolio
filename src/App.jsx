@@ -6,11 +6,12 @@ import ContactPage from './components/Contact.jsx';
 import ResumePage from './components/Resume.jsx';
 
 import styles from './styles/App.module.css';
-import { Navbar } from './components/Navbar.jsx';
+
+import { Header } from './components/Header.jsx';
 
 function App() {
     return <div className={styles.App}>
-        <Navbar />
+        <Header />
         <Routes>
             <Route path="/" element={<PortfolioPage />} />
             <Route path="/about" element={<AboutPage />} />

@@ -7,7 +7,7 @@
     justify-content: space-between;
     padding-top: 60px;
     z-index: 2;
-    margin: 0 10%;
+    margin: 0;
     background: var(-primary-color);
     background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
@@ -17,10 +17,14 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--text-color);
+    margin-left: 30px;
+    padding: 10px;
 }
 
 .menu {
     display: flex;
+    margin-right: 30px;
+    padding: 10px;
 }
 
 .menuBtn {

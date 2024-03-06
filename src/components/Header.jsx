@@ -1,19 +1,23 @@
 // Should appear on multiple pages
 // Include developer name
 // Include navigation with titles 
-    // About Me, Portfolio, Contact, Resume
+// About Me, Portfolio, Contact, Resume
 
-    import React from 'react';
+import React from 'react';
 
 import styles from '../styles/Header.module.css';
 
+import { Navbar } from './Navbar.jsx';
 
-function Header() {
+export const Header = () => {
     return (
-        <div className={styles.App}>
-            <h1>Alyssa Pupping</h1>
-        </div>
-    );
-}
+        <section>
+            <div className={styles.Header}>
+                <h1 className={styles.title}>Alyssa Pupping</h1>
+                <p className={styles.tagline}>Full-Stack Developer</p>
+            </div>
+            <Navbar />
 
-export default Header;
+        </section>
+    );
+};
