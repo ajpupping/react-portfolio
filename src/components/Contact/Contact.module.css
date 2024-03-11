@@ -64,12 +64,12 @@
 }
 
 .email a {
-    color: var(--text-color);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
 .email a:hover {
-    color: var(--secondary-color);
+    color: var(--pink-color);
     text-decoration: underline;
     transition: 0.3s;
 }

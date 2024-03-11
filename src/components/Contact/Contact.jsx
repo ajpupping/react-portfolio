@@ -25,8 +25,9 @@ export const Contact = () => {
             </form>
             <div className={styles.email}>
                 <p>
-                    If you would like to get in touch with me, send me an email
-                    at <a href='mailto:ajpupping@gmail.com'>ajpupping@gmail.com</a>
+                    If you would like to get in touch with me, <a 
+                    href='mailto:ajpupping@gmail.com'>send me an email
+                    </a>
                 </p>
             </div>
         </section>
