@@ -8,7 +8,7 @@ import styles from '../Portfolio/Portfolio.module.css';
 const projects = [
     {
         title: 'Project 1',
-        image: './assets/images/placeholder-1.jpg',
+        image: '../../assets/images',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
     },
