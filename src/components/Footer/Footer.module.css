@@ -1,1 +1,25 @@
 @import "../../styles/vars.css";
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--button-color);
+}
+
+.socialLinks {
+    margin: 20px;
+    padding: 10px;
+}
+
+.socialLinks a {
+    margin: 10px;
+    color: var(--secondary-color); 
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    color: var(--primary-color);
+}

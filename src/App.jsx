@@ -8,9 +8,11 @@ import ResumePage from './components/Resume/Resume.jsx';
 import styles from './styles/App.module.css';
 
 import { Header } from './components/Header/Header.jsx';
+import { Footer } from './components/Footer/Footer.jsx';
 
 function App() {
-    return <div className={styles.App}>
+    return (
+        <div className={styles.App}>
         <Header />
         <Routes>
             <Route path="/" element={<PortfolioPage />} />
@@ -18,7 +20,9 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/resume" element={<ResumePage />} />
         </Routes>
-    </div>;
+        <Footer />
+    </div>
+    );
 }
 
 export default App;

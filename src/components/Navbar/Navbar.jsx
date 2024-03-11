@@ -14,11 +14,12 @@ export const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const getNavLinkClass = ({ isActive }) => {
+        return isActive ? `${styles.link} ${styles.activeLink}` : styles.link;
+    };
+
     return (
         <nav className={styles.navbar}>
-            <NavLink className={styles.title} to="/" exact>
-                Portfolio
-            </NavLink>
             <div className={styles.menu} >
                 <button 
                 className={styles.menuBtn} 
@@ -29,9 +30,10 @@ export const Navbar = () => {
                 </button>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
                     onClick={() => setMenuOpen(false)}>
-                    <li><NavLink to="/about" activeClassName={styles.activeLink}>About Me</NavLink></li>
-                    <li><NavLink to="/contact" activeClassName={styles.activeLink}>Contact Me</NavLink></li>
-                    <li><NavLink to="/resume" activeClassName={styles.activeLink}>Resume</NavLink></li>
+                    <li><NavLink to="/about" className={getNavLinkClass}>About Me</NavLink></li>
+                    <li><NavLink to="/" className={getNavLinkClass}>Portfolio</NavLink></li>
+                    <li><NavLink to="/contact" className={getNavLinkClass}>Contact Me</NavLink></li>
+                    <li><NavLink to="/resume" className={getNavLinkClass}>Resume</NavLink></li>
                 </ul>
             </div>
         </nav>

@@ -18,3 +18,11 @@
     gap: 20px;
     color: var(--text-color);
 }
+
+@media screen and (max-width: 768px){
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

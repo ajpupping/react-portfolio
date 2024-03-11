@@ -73,3 +73,19 @@
     text-decoration: underline;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 768px){
+    .title {
+        margin-left: 0;
+    }
+    .contactForm {
+        margin-top: 0;
+    }
+    .messageInput {
+        width: 300px;
+    }
+    .email {
+        margin: 0;
+    }
+    
+}
