@@ -3,7 +3,7 @@
 .navbar {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     padding-top: 60px;
     z-index: 2;
@@ -36,8 +36,8 @@
 }
 
 .menuItems a {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: bold;
     text-decoration: none;
     color: var(--text-color);
 }
@@ -89,4 +89,10 @@
         display: flex;
         z-index: 1;
     }
+}
+
+.activeLink {
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: 0.3s;
 }

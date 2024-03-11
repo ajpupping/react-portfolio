@@ -4,7 +4,7 @@
 
 import React, {useState} from 'react';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import styles from '../Navbar/Navbar.module.css';
 
@@ -16,18 +16,22 @@ export const Navbar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <a className={styles.title} href="/">
+            <NavLink className={styles.title} to="/" exact>
                 Portfolio
-            </a>
+            </NavLink>
             <div className={styles.menu} >
-                <button className={styles.menuBtn} onClick={toggleMenu}>
+                <button 
+                className={styles.menuBtn} 
+                onClick={toggleMenu}
+                aria-expanded={menuOpen}
+                >
                     {menuOpen ? 'Close' : 'Menu'}
                 </button>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
                     onClick={() => setMenuOpen(false)}>
-                    <li><Link to="/about">About Me</Link></li>
-                    <li><Link to="/contact">Contact Me</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    <li><NavLink to="/about" activeClassName={styles.activeLink}>About Me</NavLink></li>
+                    <li><NavLink to="/contact" activeClassName={styles.activeLink}>Contact Me</NavLink></li>
+                    <li><NavLink to="/resume" activeClassName={styles.activeLink}>Resume</NavLink></li>
                 </ul>
             </div>
         </nav>
