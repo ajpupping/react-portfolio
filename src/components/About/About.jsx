@@ -3,8 +3,6 @@
 
 import React from 'react';
 
-import { getImageUrl } from '../../utils';
-
 import styles from '../About/About.module.css';
 
 export const About = () => {
@@ -12,7 +10,7 @@ export const About = () => {
         <section className={styles.container}>
             <div className={styles.profile}>
             <h2 className={styles.title} >About Me</h2>
-                <img src={getImageUrl("images/round-profile-pic.png")} 
+            <img src="/assets/images/round-profile-pic.png" 
                 alt="A photo of Alyssa Pupping" 
                 className={styles.image}/>
             </div>

@@ -8,39 +8,39 @@ import styles from '../Portfolio/Portfolio.module.css';
 const projects = [
     {
         title: 'Project 1',
-        image: '../../assets/images',
+        image: '/assets/images/placeholder-1.jpg',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
     },
     {
         title: 'Project 2',
-        image: './assets/images/placeholder-2.jpg',
+        image: '/assets/images/placeholder-2.jpg',
         repo:  'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
 
     },
     {
         title: 'Project 3',
-        image: './assets/images/placeholder-3.jpg',
+        image: '/assets/images/placeholder-3.jpg',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
     },
     {
         title: 'Project 4',
-        image: './assets/images/placeholder-4.jpg',
+        image: '/assets/images/placeholder-4.jpg',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
     },
     {
         title: 'Project 5',
-        image: './assets/images/placeholder-5.jpg',
+        image: '/assets/images/placeholder-5.jpg',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
 
     },
     {
         title: 'Project 6',
-        image: './assets/images/placeholder-6.jpg',
+        image: '/assets/images/placeholder-6.jpg',
         repo: 'https://github.com/ajpupping',
         deployed: 'https://ajpupping.github.io/ajp-portfolio/'
     }
