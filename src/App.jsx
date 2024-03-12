@@ -15,8 +15,8 @@ function App() {
         <div className={styles.App}>
         <Header />
         <Routes>
-            <Route path="/" element={<PortfolioPage />} />
-            <Route path="/about" element={<AboutPage />} />
+            <Route path="/" element={<AboutPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/resume" element={<ResumePage />} />
         </Routes>

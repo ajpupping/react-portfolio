@@ -30,8 +30,8 @@ export const Navbar = () => {
                 </button>
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ''}`}
                     onClick={() => setMenuOpen(false)}>
-                    <li><NavLink to="/about" className={getNavLinkClass}>About Me</NavLink></li>
-                    <li><NavLink to="/" className={getNavLinkClass}>Portfolio</NavLink></li>
+                    <li><NavLink to="/" className={getNavLinkClass}>About Me</NavLink></li>
+                    <li><NavLink to="/portfolio" className={getNavLinkClass}>Portfolio</NavLink></li>
                     <li><NavLink to="/contact" className={getNavLinkClass}>Contact Me</NavLink></li>
                     <li><NavLink to="/resume" className={getNavLinkClass}>Resume</NavLink></li>
                 </ul>
