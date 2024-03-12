@@ -1,10 +1,12 @@
 # React Portfolio
 
-[View the deployed site](https://deft-gaufre-38791a.netlify.app/) (work in progress)
+[View the deployed site](https://ajp-react-portfolio.netlify.app/)
 
 ## Description 
 
 The purpose of this project was to design and build a personal portfolio using React and deploy it using Netlify. 
+
+I learned how to add images so that they would be visilble when the site is deployed. I also learned how to use NavLink to highlight the active page navigation links. I used iframe to add a pdf viewer so that users could view my resume before downloading it. 
 
 
 ## Usage 
