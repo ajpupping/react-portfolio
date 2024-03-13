@@ -10,17 +10,17 @@ I learned how to add images so that they would be visilble when the site is depl
 
 
 ## Usage 
-![Image](./assets/images/about-screenshot.png)
+![Image](./public/assets/images/about-screenshot.png)
 
 Clicking About Me in the navigation bar will take users the About section.
 
 
-![Image](./assets/images/portfolio-screenshot.png)
+![Image](./public/assets/images/portfolio-screenshot.png)
 
 Clicking Portfolio in the navigation bar will take users to the portfolio section, featuring 6 projects.
 
 
-![Image](./assets/images/contact-screenshot.png)
+![Image](./public/assets/images/contact-screenshot.png)
 
 Clicking Contact Me in the navigation bar will take users to the contact form, where they can enter their information or send an email. 
 
