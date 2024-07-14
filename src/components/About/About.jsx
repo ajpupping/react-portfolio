@@ -20,7 +20,7 @@ export const About = () => {
                     My name is Alyssa Pupping, and I am a full-stack web developer based in Southern California. I am passionate about creating beautiful and accessible web applications. 
                     <br></br><br></br>
                     
-                    I have almost completed a Full-Stack Web Development Bootcamp, through the UCSD Extended Studies Program. My education has equipped with the skills to build dynamic and responsive applications from scratch. I have also gained experience in implementing both structured and unstructured databases, creating RESTful APIs, and leveraging modern frameworks and libraries like React and Node.js for to streamline development. 
+                    I have completed a Full-Stack Web Development Bootcamp, through the UCSD Extended Studies Program. My education has equipped with the skills to build dynamic and responsive applications from scratch. I have also gained experience in implementing both structured and unstructured databases, creating RESTful APIs, and leveraging modern frameworks and libraries like React and Node.js to streamline development. 
                     <br></br><br></br>
 
                     The principles of agile development resonate deeply with me, building on the skills I developed as an educator. Both fields require collaborative problem solving, flexible thinking, and a growth mindset. Furthermore, I am committed to practicing adaptive design, ensuring that my web applications are accessible and offer an equitable and inclusive user experience to people with a diverse array of abilites and preferences. 
