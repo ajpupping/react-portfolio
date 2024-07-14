@@ -6,7 +6,7 @@ import React from 'react';
 import styles from '../Resume/Resume.module.css';
 
 export const Resume = () => {
-    const resumePath = '/assets/docs/AJP-Resume.pdf'
+    const resumePath = '/assets/docs/ajpupping-resume.pdf'
     return (
         <div className={styles.Resume}>
             <div className={styles.download}>
