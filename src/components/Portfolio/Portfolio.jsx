@@ -7,42 +7,42 @@ import styles from '../Portfolio/Portfolio.module.css';
 
 const projects = [
     {
-        title: 'Project 1',
-        image: '/assets/images/placeholder-1.jpg',
-        repo: 'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Weather App',
+        image: '/assets/images/weather-app.jpg',
+        repo: 'https://github.com/ajpupping/weather-app',
+        deployed: 'https://ajpupping.github.io/weather-app/'
     },
     {
-        title: 'Project 2',
-        image: '/assets/images/placeholder-2.jpg',
-        repo:  'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Tech Blog',
+        image: '/assets/images/tech-blog.jpg',
+        repo:  'https://github.com/ajpupping/tech-blog',
+        deployed: 'https://ajp-tech-blog-67472f936680.herokuapp.com/'
 
     },
     {
-        title: 'Project 3',
-        image: '/assets/images/placeholder-3.jpg',
-        repo: 'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Trip Planner',
+        image: '/assets/images/trip-planner.jpg',
+        repo: 'https://github.com/RoopaThimmanacherla/trip-planner',
+        deployed: 'https://roopathimmanacherla.github.io/trip-planner/'
     },
     {
-        title: 'Project 4',
-        image: '/assets/images/placeholder-4.jpg',
-        repo: 'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Next-Up Job Tracker',
+        image: '/assets/images/next-up.jpg',
+        repo: 'https://github.com/Andrew-seatter/Next-up',
+        deployed: 'https://next-up.onrender.com/'
     },
     {
-        title: 'Project 5',
-        image: '/assets/images/placeholder-5.jpg',
-        repo: 'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Shopping List Helper',
+        image: '/assets/images/shopping-list.jpg',
+        repo: 'https://github.com/Jarede712/Shopping-List-Helper',
+        deployed: 'https://shopping-list-helper-13d0cb3c2c45.herokuapp.com/login'
 
     },
     {
-        title: 'Project 6',
-        image: '/assets/images/placeholder-6.jpg',
-        repo: 'https://github.com/ajpupping',
-        deployed: 'https://ajpupping.github.io/ajp-portfolio/'
+        title: 'Tavern Game - Work in Progress',
+        image: '/assets/images/tavern-game.jpg',
+        repo: 'https://github.com/ajpupping/tavern-game',
+        deployed: 'https://ajpupping.github.io/tavern-game/'
     }
 ];
 
